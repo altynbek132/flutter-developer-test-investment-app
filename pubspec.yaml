@@ -101,7 +101,6 @@ dependencies:
     git:
       url: https://github.com/altynbek132/octopus
   l: ^5.0.1
-  retrofit: ^4.7.2
   story_view:
     git:
       url: https://github.com/altynbek132/story_view
