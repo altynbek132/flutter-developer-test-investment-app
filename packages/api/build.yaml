@@ -1,0 +1,10 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swagger/**
+    builders:
+      json_serializable:
+        options:
+          include_if_null: false
+          explicit_to_json: true
