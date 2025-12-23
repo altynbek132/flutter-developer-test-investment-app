@@ -1,0 +1,28 @@
+# include: package:lint_rules/lints_dcm.yaml
+# include: package:lint_rules/lints.yaml
+# include: package:lint_rules/lints_nonaming.yaml
+
+include: package:lint_rules/debug.yaml
+# include: package:lint_rules/debug_nonaming.yaml
+
+# * // ignore: name_of_lint
+# * // ignore_for_file: name_of_lint
+
+formatter:
+  trailing_commas: preserve
+  page_width: 120
+
+analyzer:
+  exclude:
+    # - "**/*.*.dart"
+    # - "**/*.*.*.dart"
+    - "**/api.swagger.chopper.dart"
+    - "**/code2_models.dart"
+
+linter:
+  # true - active
+  # false - inactive
+
+  rules:
+    library_private_types_in_public_api: false
+    always_use_package_imports: true
