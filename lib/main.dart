@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stock_investment_app/pages/stocks/stocks_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Stock Investment',
       theme: ThemeData(
+        fontFamily: 'SF Pro',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const StocksScreen(),
     );
   }
 }
