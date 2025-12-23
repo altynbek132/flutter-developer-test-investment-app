@@ -198,7 +198,7 @@ class StocksScreen extends StatelessWidget {
                         logoWidth: 22,
                         logoHeight: 22,
                         logoPadding: EdgeInsets.fromLTRB(9, 9, 0, 0),
-                        verificationIcon: Icon(Icons.cancel_rounded, color: Color(0xFFFF005B), size: 20.w),
+                        verificationIcon: Icon(Icons.remove_circle_rounded, color: Color(0xFFFF005B), size: 20.w),
                       ),
                       StockListItem(
                         symbol: 'GOOGL',
@@ -245,7 +245,7 @@ class StocksScreen extends StatelessWidget {
                         logoUrl: "https://placehold.co/40x40",
                         logoWidth: 40,
                         logoHeight: 40,
-                        verificationIcon: Icon(Icons.cancel_rounded, color: Color(0xFFFF005B), size: 20.w),
+                        verificationIcon: Icon(Icons.remove_circle_rounded, color: Color(0xFFFF005B), size: 20.w),
                       ),
                       StockListItem(
                         symbol: 'LLY',
