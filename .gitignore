@@ -234,3 +234,7 @@ packages/**/pubspec.lock
 # ================================================ CUSTOM IGNORES END ================================================ #
 
 # ================================================== PROJECT IGNORES ================================================= #
+.github/instructions/codebase.instructions.md
+.github/instructions/api.instructions.md
+.github/instructions/assets.instructions.md
+code2.py
